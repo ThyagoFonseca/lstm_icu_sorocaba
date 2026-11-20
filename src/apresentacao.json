@@ -1,0 +1,100 @@
+{
+  "_edicao": "Textos da guia Apresentação. Onde estiver {{oke}}, o site escreve o nome e abre o currículo ao passar o mouse. A estação de id sorocaba fica no centro do grafo. lat e lon entram só no cálculo da distância em linha reta. Este campo não aparece no site.",
+  "oke": "Timothy R. Oke é professor emérito de Geografia da University of British Columbia. Pesquisa o clima urbano e os balanços de energia e água das cidades, e chefiou o departamento de 1991 a 1996. Formou-se na University of Bristol e concluiu mestrado e doutorado na McMaster University em 1967. Recebeu a Order of Canada e é fellow da Royal Society of Canada. No Google Scholar, o perfil soma 78.392 citações e índice h 88. O livro mais citado é Boundary Layer Climates (1988); em 2017 publicou Urban Climates, com Mills, Christen e Voogt.",
+  "anterior": "Anterior",
+  "proximo": "Próximo",
+  "fechar": "Fechar",
+  "atalho": "Setas, Page Up e Page Down",
+  "painelTitulo": "Humidex do dia seguinte",
+  "glossario": {
+    "MAPE": "Porcentagem média do valor daquele dia. É a leitura mais direta para quem não acompanha a unidade do índice.",
+    "MAE": "Erro absoluto médio, na mesma unidade do Humidex. É o número que ordena o ranking.",
+    "RMSE": "Raiz do erro quadrático. Erros grandes pesam mais do que no MAE.",
+    "Dia anterior": "A previsão de repetir o último dia visto. Serve de piso: a rede precisa errar menos do que isso."
+  },
+  "estacoes": [
+    { "id": "ufscar", "nome": "UFSCar", "rotulo": "UFSCar", "lat": -23.6, "lon": -47.53, "cor": "#8c2f2f", "destaque": "Série de referência" },
+    { "id": "sorocaba", "nome": "Sorocaba", "rotulo": "Sorocaba", "lat": -23.5, "lon": -47.45, "cor": "#6d5c49", "destaque": "Cidade do trabalho" },
+    { "id": "sao_paulo_mirante_de_santana", "nome": "Mirante", "rotulo": "Mirante de Santana", "lat": -23.4962888, "lon": -46.6200666, "cor": "#1f6f5b", "destaque": "Menor MAPE" },
+    { "id": "sao_miguel_arcanjo", "nome": "S. Miguel Arcanjo", "rotulo": "São Miguel Arcanjo", "lat": -23.89083333, "lon": -47.99916666, "cor": "#8a8175" },
+    { "id": "sao_paulo_interlagos", "nome": "Interlagos", "rotulo": "Interlagos", "lat": -23.72444443, "lon": -46.67749999, "cor": "#8a8175" },
+    { "id": "barueri", "nome": "Barueri", "rotulo": "Barueri", "lat": -23.52388888, "lon": -46.86944443, "cor": "#8a8175" }
+  ],
+  "cartoes": [
+    {
+      "tipo": "capa",
+      "motivo": "sol",
+      "titulo": "Redes Neurais LSTM aplicadas ao estudo de Ilhas de Calor Urbanas: Índices de Conforto Térmico na Cidade de Sorocaba–SP",
+      "linhas": [
+        "Thyago Gonçalves Fonseca.",
+        "Orientação do Professor Drº Renato Fernandes Cantão e Drª Kelly Tonello.",
+        "Universidade Federal de São Carlos, campus Sorocaba. ICTSR, Edital ProPq 002/2022, sem remuneração."
+      ]
+    },
+    {
+      "tipo": "marcos",
+      "motivo": "cidade",
+      "titulo": "A ilha de calor urbana ao longo do tempo",
+      "itens": [
+        { "ano": "1947", "texto": "Balchin e Pye também usam a terminologia de ilha de calor urbana." },
+        { "ano": "1965", "texto": "Chandler publica The Climate of London. {{oke}}, em 2009, aponta esse livro como o primeiro reconhecimento dos efeitos das ilhas de calor urbanas." },
+        { "ano": "2003", "texto": "Voogt e {{oke}} descrevem a cidade mais quente que o entorno, sobretudo à noite, e nomeiam o fenômeno." },
+        { "ano": "2012", "texto": "Stewart e {{oke}} retomam a mesma terminologia." }
+      ]
+    },
+    {
+      "tipo": "objetivos",
+      "motivo": "alvo",
+      "titulo": "Objetivo geral",
+      "geral": "Prever os índices de conforto térmico em Sorocaba e arredores, como ferramenta inicial para o estudo das ilhas de calor urbanas.",
+      "especificosTitulo": "Objetivos específicos",
+      "especificos": [
+        "Padronizar os dados e calcular os índices de conforto.",
+        "Treinar a LSTM para o dia seguinte à janela.",
+        "Medir o erro contra o dia real medido pela estação.",
+        "Chegar à interpolação IDW no QGIS (em processo), em que o ponto da estação vira uma leitura da cidade."
+      ]
+    },
+    {
+      "tipo": "metodos",
+      "motivo": "rede",
+      "titulo": "Até o modelo",
+      "itens": [
+        { "ano": "1", "titulo": "Aquisição", "texto": "Estação Davis da UFSCar, estações INMET em São Miguel Arcanjo, Interlagos, Mirante de Santana e Barueri, e estação CIIAGRO em Sorocaba." },
+        { "ano": "2", "titulo": "Pré-processamento", "texto": "Python, máscara de quantis para eliminar outliers, média diária para redução da base e os índices Humidex, ITU, IDT, TEv e TW." },
+        { "ano": "3", "titulo": "LSTM", "texto": "Janela de 14 dias, alvo no dia seguinte, 80% para treino, 50 unidades, 500 épocas, lote 32 e semente 7." },
+        { "ano": "4", "titulo": "Avaliação", "texto": "Erro absoluto médio, raiz do erro quadrático, R² e MAPE, sempre no dia seguinte." }
+      ]
+    },
+    {
+      "tipo": "grafo",
+      "titulo": "Distância das estações até Sorocaba",
+      "nota": "Cada linha é a distância em linha reta até a estação de Sorocaba. Clique no nome para ver o Humidex."
+    },
+    {
+      "tipo": "idw",
+      "titulo": "Humidex médio entre as estações",
+      "nota": "À esquerda, a região entre Sorocaba e São Paulo. À direita, Sorocaba em detalhe. O número é o Humidex médio da estação. A cor no meio é a estimativa do IDW."
+    },
+    {
+      "tipo": "series",
+      "titulo": "Melhor rodada do Humidex"
+    },
+    {
+      "tipo": "conclusao",
+      "motivo": "caminho",
+      "titulo": "Onde a pesquisa parou",
+      "paragrafos": [
+        "O modelo está testado. Na UFSCar, o MAPE do Humidex do dia seguinte é 8,19%, e repetir o dia anterior chega a 9,28%.",
+        "A limitação é que a previsão ainda se parece com o último dia da janela, mesmo utlizidando outras configurações no modelo. A série do índice, sozinha, traz pouco do salto de um dia para o outro, e a estação CIAGRO de Sorocaba não tem vento, inviabilizando índices que dependem dele (ITU, IDT, TEv e TW).",
+        "A ilustração georreferenciada é o mapa do Humidex médio interpolado por IDW. Porém, os pontos mais promissores observados são os da estação da UFSCar e da CIIAGRO, pois pertencem a mesma região, considerando as questões de relevo, terreno, porém a estação da CIIAGRO não mede vento, e interpolar com duas estações não é a melhor opção, o ideal seria usar uma terceira estação triângulando a interpolação. Abrindo uma oportunidade para estudos mais aprofundados.",
+        "O relatório final fecha este trabalho."
+      ]
+    },
+    {
+      "tipo": "obrigado",
+      "motivo": "arco",
+      "frase": "Obrigado"
+    }
+  ]
+}

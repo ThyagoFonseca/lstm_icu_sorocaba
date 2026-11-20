@@ -1,0 +1,303 @@
+[
+  {
+    "estacao": "ufscar",
+    "indice": "Humidex",
+    "mae": 2.081066,
+    "mape": 8.19,
+    "mapeOntem": 9.28
+  },
+  {
+    "estacao": "ufscar",
+    "indice": "Humidex",
+    "mae": 2.124814,
+    "mape": 8.13,
+    "mapeOntem": 9.28
+  },
+  {
+    "estacao": "ufscar",
+    "indice": "Humidex",
+    "mae": 2.278555,
+    "mape": 8.74,
+    "mapeOntem": 9.33
+  },
+  {
+    "estacao": "ufscar",
+    "indice": "Humidex",
+    "mae": 2.504049,
+    "mape": 9.84,
+    "mapeOntem": 9.33
+  },
+  {
+    "estacao": "ufscar",
+    "indice": "Humidex",
+    "mae": 2.197792,
+    "mape": 8.47,
+    "mapeOntem": 9.33
+  },
+  {
+    "estacao": "ufscar",
+    "indice": "Humidex",
+    "mae": 2.204203,
+    "mape": 8.47,
+    "mapeOntem": 9.33
+  },
+  {
+    "estacao": "ufscar",
+    "indice": "Humidex",
+    "mae": 2.224837,
+    "mape": 8.44,
+    "mapeOntem": 9.28
+  },
+  {
+    "estacao": "ufscar",
+    "indice": "Humidex",
+    "mae": 2.216212,
+    "mape": 8.37,
+    "mapeOntem": 9.28
+  },
+  {
+    "estacao": "ufscar",
+    "indice": "Humidex",
+    "mae": 2.154342,
+    "mape": 8.34,
+    "mapeOntem": 9.28
+  },
+  {
+    "estacao": "ufscar",
+    "indice": "ITU",
+    "mae": 1.370597,
+    "mape": 7.03,
+    "mapeOntem": 7.31
+  },
+  {
+    "estacao": "ufscar",
+    "indice": "IDT",
+    "mae": 1.146785,
+    "mape": 5.77,
+    "mapeOntem": 6.57
+  },
+  {
+    "estacao": "ufscar",
+    "indice": "TEv",
+    "mae": 1.84897,
+    "mape": 10.34,
+    "mapeOntem": 10.16
+  },
+  {
+    "estacao": "ufscar",
+    "indice": "TW",
+    "mae": 1.878271,
+    "mape": 7.98,
+    "mapeOntem": 7.99
+  },
+  {
+    "estacao": "sao_miguel_arcanjo",
+    "indice": "Humidex",
+    "mae": 2.084924,
+    "mape": 8.58,
+    "mapeOntem": 9.72
+  },
+  {
+    "estacao": "sao_miguel_arcanjo",
+    "indice": "ITU",
+    "mae": 1.534206,
+    "mape": 7.92,
+    "mapeOntem": 7.91
+  },
+  {
+    "estacao": "sao_miguel_arcanjo",
+    "indice": "IDT",
+    "mae": 1.350284,
+    "mape": 7.02,
+    "mapeOntem": 7.18
+  },
+  {
+    "estacao": "sao_miguel_arcanjo",
+    "indice": "TEv",
+    "mae": 2.349255,
+    "mape": 21.23,
+    "mapeOntem": 23.75
+  },
+  {
+    "estacao": "sao_miguel_arcanjo",
+    "indice": "TW",
+    "mae": 2.500533,
+    "mape": 15.1,
+    "mapeOntem": 15.17
+  },
+  {
+    "estacao": "sao_paulo_interlagos",
+    "indice": "Humidex",
+    "mae": 2.306448,
+    "mape": 9.62,
+    "mapeOntem": 9.47
+  },
+  {
+    "estacao": "sao_paulo_interlagos",
+    "indice": "ITU",
+    "mae": 1.506059,
+    "mape": 8.06,
+    "mapeOntem": 7.88
+  },
+  {
+    "estacao": "sao_paulo_interlagos",
+    "indice": "IDT",
+    "mae": 1.401341,
+    "mape": 7.41,
+    "mapeOntem": 7.12
+  },
+  {
+    "estacao": "sao_paulo_interlagos",
+    "indice": "TEv",
+    "mae": 2.285125,
+    "mape": 17.47,
+    "mapeOntem": 17.75
+  },
+  {
+    "estacao": "sao_paulo_interlagos",
+    "indice": "TW",
+    "mae": 2.427128,
+    "mape": 12.66,
+    "mapeOntem": 12.4
+  },
+  {
+    "estacao": "sao_paulo_mirante_de_santana",
+    "indice": "Humidex",
+    "mae": 1.897403,
+    "mape": 8.05,
+    "mapeOntem": 8.52
+  },
+  {
+    "estacao": "sao_paulo_mirante_de_santana",
+    "indice": "ITU",
+    "mae": 1.260187,
+    "mape": 6.58,
+    "mapeOntem": 7.17
+  },
+  {
+    "estacao": "sao_paulo_mirante_de_santana",
+    "indice": "IDT",
+    "mae": 1.052251,
+    "mape": 5.5,
+    "mapeOntem": 5.99
+  },
+  {
+    "estacao": "sao_paulo_mirante_de_santana",
+    "indice": "TEv",
+    "mae": 1.679115,
+    "mape": 11.18,
+    "mapeOntem": 12.81
+  },
+  {
+    "estacao": "sao_paulo_mirante_de_santana",
+    "indice": "TW",
+    "mae": 1.835317,
+    "mape": 8.91,
+    "mapeOntem": 9.95
+  },
+  {
+    "estacao": "barueri",
+    "indice": "Humidex",
+    "mae": 2.604087,
+    "mape": 10.07,
+    "mapeOntem": 9.99
+  },
+  {
+    "estacao": "barueri",
+    "indice": "ITU",
+    "mae": 1.503344,
+    "mape": 7.74,
+    "mapeOntem": 7.79
+  },
+  {
+    "estacao": "barueri",
+    "indice": "IDT",
+    "mae": 1.472083,
+    "mape": 7.59,
+    "mapeOntem": 6.98
+  },
+  {
+    "estacao": "barueri",
+    "indice": "TEv",
+    "mae": 2.304057,
+    "mape": 12.88,
+    "mapeOntem": 12.07
+  },
+  {
+    "estacao": "barueri",
+    "indice": "TW",
+    "mae": 2.465938,
+    "mape": 10.99,
+    "mapeOntem": 9.73
+  },
+  {
+    "estacao": "sorocaba",
+    "indice": "Humidex",
+    "mae": 2.505042,
+    "mape": 8.84,
+    "mapeOntem": 10.11
+  },
+  {
+    "estacao": "sorocaba",
+    "indice": "Humidex",
+    "mae": 2.601213,
+    "mape": 9.24,
+    "mapeOntem": 10.08
+  },
+  {
+    "estacao": "sorocaba",
+    "indice": "Humidex",
+    "mae": 2.758372,
+    "mape": 9.63,
+    "mapeOntem": 10.1
+  },
+  {
+    "estacao": "sorocaba",
+    "indice": "Humidex",
+    "mae": 2.576656,
+    "mape": 9.14,
+    "mapeOntem": 10.11
+  },
+  {
+    "estacao": "sorocaba",
+    "indice": "Humidex",
+    "mae": 2.337555,
+    "mape": 8.37,
+    "mapeOntem": 10.11
+  },
+  {
+    "estacao": "sorocaba",
+    "indice": "Humidex",
+    "mae": 2.504615,
+    "mape": 8.93,
+    "mapeOntem": 10.11
+  },
+  {
+    "estacao": "sorocaba",
+    "indice": "Humidex",
+    "mae": 2.346135,
+    "mape": 8.46,
+    "mapeOntem": 10.11
+  },
+  {
+    "estacao": "sorocaba",
+    "indice": "Humidex",
+    "mae": 2.415249,
+    "mape": 8.63,
+    "mapeOntem": 10.11
+  },
+  {
+    "estacao": "sorocaba",
+    "indice": "Humidex",
+    "mae": 2.511686,
+    "mape": 8.85,
+    "mapeOntem": 10.11
+  },
+  {
+    "estacao": "sorocaba",
+    "indice": "Humidex",
+    "mae": 2.462033,
+    "mape": 8.64,
+    "mapeOntem": 10.11
+  }
+]
